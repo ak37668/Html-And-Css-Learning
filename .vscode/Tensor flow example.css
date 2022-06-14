@@ -1,0 +1,14 @@
+div {
+    height: 150px;
+    width: 300px;
+    padding: 5% 10% 20% 5%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    box-sizing: border-box;
+ }
+ div > div {
+    border-radius: 80px;
+    padding: 2em 2em;
+    box-shadow: 0 0 4px 0.8px black;
+ }
