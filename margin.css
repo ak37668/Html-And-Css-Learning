@@ -1,0 +1,14 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+ }
+ .outerdiv {
+    border: 2px solid purple;
+    width: 300px;
+    height: 200px;
+    align-self: center;
+ }
+ .innerdiv {
+    border: 2px solid green;
+    margin: 20px;
+    padding-left: 20px;
+ }
