@@ -6,10 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Semantic-Tags</title>
     <style>
+        .sec1{
+            border-color: yellow;
+            color: brown;
+        }
+        .sec2{
+            background-color: rgb(149, 227, 241);
+        }
         .all-browsers {
           margin: 0;
           padding: 5px;
           background-color: lightgray;
+          color: rgb(73, 165, 42);
         }
         
         .all-browsers > h1, .browser {
@@ -25,6 +33,15 @@
           margin: 4px;
           font-size: 90%;
         }
+        <style>
+aside {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: italic;
+  background-color: lightgray;}
+
         </style>
 </head>
 <body>
@@ -34,14 +51,14 @@
         <a href="/js/">JavaScript</a> |
         <a href="/jquery/">jQuery</a>
       </nav>
-    <section>
+    <section class="sec1">
         <h1>WWF</h1>
-        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+        <p class="p1">The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
         </section>
         
-        <section>
+        <section class="sec2">
         <h1>WWF's Panda symbol</h1>
-        <p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
+        <p class="p2">The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment of WWF.</p>
         </section>
         <article class="all-browsers">
             <h1>Most Popular Browsers</h1>
@@ -58,6 +75,10 @@
               <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
             </article>
           </article>
+          <aside>
+            <p>Aside text Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam totam, cumque illum dicta, aliquam amet consequatur dignissimos, architecto soluta non error aliquid reiciendis maiores ducimus modi explicabo eveniet! Praesentium error sapiente veritatis, corrupti voluptates hic eius doloremque dolor in, exercitationem est necessitatibus, aspernatur laboriosam pariatur dolorem? Iste, sapiente hic sunt deleniti fugit vero explicabo nam numquam, eligendi tenetur reprehenderit nemo! Consequuntur aliquam eaque perferendis aliquid itaque ab reprehenderit nemo! Quisquam quos officia, impedit odio ut ea facere, eius tempora alias harum corporis! Odit voluptatem cumque consequatur reprehenderit enim, dicta itaque iure praesentium distinctio provident assumenda eos adipisci facilis! Pariatur, asperiores!</p>
+            </aside>
+            
 
     <!-- <Div class="header">
         <div class="nav"></div>
