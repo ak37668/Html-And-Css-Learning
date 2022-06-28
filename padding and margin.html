@@ -6,22 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>paddng and margin</title>
     <style>
+        body{
+            border: 5x solid purple;
+            background-image: url(/images/transparent1.jpg);
+            background-size:unset;
+        }
         div{
-            color: rgb(250, 11, 11);
+            color: rgb(248, 8, 128);
             font-size: 25px;
             font-style: italic;
             padding: 50px 25px;
-            background-color: aqua;
-            border: 10px solid greenyellow pink red orange;
             border-radius: 20px;
-            background-image: url(/images/transparent1.jpg);
-            background-size:contain;
+        }
+         #div1 , #div2 , #div3{
+            border: 5px solid orangered;
+            padding: 50px 20px;
+            margin: 50px;
+        }
+        #div1{
+            background-color: aqua;
+        }
+        #div2{
+            background-color: rgb(56, 15, 95);
+        }
+        #div3{
+            background-color: chartreuse;
         }
     </style>
 </head>
 <body>
-    <div class="div">
+    <div id="div1">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi commodi quos distinctio consequuntur repudiandae dicta aperiam earum! Ipsum praesentium eum dolor quasi est facilis eligendi sequi repellendus doloribus ut nesciunt suscipit hic recusandae alias, officia excepturi esse delectus ex repellat sit officiis autem. Animi molestias nisi ipsum earum, quaerat itaque.</p>
+    </div>
+    <div id="div2">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam commodi nam aspernatur unde culpa, corrupti eaque placeat voluptatem ab, odit minus corporis hic sapiente quam, dolorem enim harum. Ipsam repellendus temporibus aspernatur. Recusandae amet alias veniam? Porro mollitia laudantium ullam reprehenderit sapiente quam ipsam, autem quo tempora quas voluptas commodi?
+    </div>
+    <div id="div3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam id dolorem perspiciatis ullam repellat illo fugit, deserunt optio recusandae velit, enim iusto dolor provident tempora. Quae obcaecati ab reiciendis! Qui ratione, modi nemo tempora temporibus voluptatem voluptas molestiae, pariatur rem adipisci libero, incidunt officia non facilis hic quia autem nostrum!
     </div>
 </body>
 </html>
