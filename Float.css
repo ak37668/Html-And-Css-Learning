@@ -1,0 +1,13 @@
+.container{
+    /* float: left; */
+    background-color: tomato;
+    color: bisque;
+    overflow:auto;
+
+}
+#img1{
+    float: left;
+}
+#img2{
+    float: right;
+}
