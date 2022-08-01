@@ -10,6 +10,7 @@ a{
     color: white;
 
 }
+
 a:hover{
     display: inline-block;
     /* transform: translate(50px,50px); */

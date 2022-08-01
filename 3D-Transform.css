@@ -1,0 +1,22 @@
+#cover{
+    border: 2px solid red;
+    height: 200px;
+    width: 200px;
+    margin: 150px;
+}
+
+#content{
+    height: 200px;
+    width: 200px;
+    background-color: yellowgreen;
+    transform: perspective(300px) rotate3d(0, 50, 0, 30deg);
+
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+    color: brown;
+    float: right;
+    font-display:unset;
+}
