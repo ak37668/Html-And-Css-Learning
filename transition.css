@@ -1,0 +1,27 @@
+#div1{
+    height: 100px;
+    width: 150px;
+    background-color: red;
+    margin: 100px;  
+    transition-property: width;
+    transition-duration: 1s;
+    transition-delay: 500ms;
+
+}
+
+#div1:hover{
+    width: 200px;
+    background-color: blueviolet;
+
+}
+p{
+    padding: 25px;
+    margin: 25px;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    color: aqua;
+}
+body{
+    background-color: black;
+}
